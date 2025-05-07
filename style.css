@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+RO:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+RO:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.tiktok img{
+    width: 55%;
+}
+
+body{
+    font-family: "Roboto", serif;
+    background-color: rgb(255, 233, 208);
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 233, 208);
+    height: 200px;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    flex-direction: column;
+}
+
+.tiktok{
+    width: 60px;
+    height: 60px;
+}
+
+.facebook{
+    width: 60px;
+    height: 60px;
+}
+
+.instagram{
+    width: 60px;
+    height: 60px;
+}
+
+.media{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.media button{
+    background-color: rgb(247, 203, 155);
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+}
+
+.media button:hover{
+    transform: scale(1.2);
+}
+
+.instagram img{
+    width: 55%;
+}
+
+.facebook img{
+    width: 55%;
+}
+
+.title p{
+    color: black;
+    font-size: 50px;
+    font-family: "Dancing Script", serif;
+}
+
+.contact button{
+    width: 200px;
+    height: 65px;
+    background-color: rgb(215, 11, 11);
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact button:hover{
+    background-color: black;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+.box{
+    width: 100%;
+}
+
+.box img{
+    width: 100%;
+}
+
+#div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4480px;
+}
+
+.pa{
+    position: absolute;
+    margin-top: 300px;
+    color: white;
+    margin-left: 250px;
+}
+
+.become{
+    font-size: 90px;
+    font-weight: 500;
+    color: rgb(255, 233, 208);
+}
+
+.leader{
+    font-size: 40px;
+    color: rgb(215, 11, 11);
+    font-weight: 500;
+    font-family: "Dancing Script", serif;
+}
+
+.story{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -80px;
+}
+
+.first{
+    margin-top: 140px;
+    margin-left: 300px;
+}
+
+#right{
+    margin-left: 65px;
+}
+
+.why{
+    font-size: 18px;
+    color: rgb(215, 11, 11);
+    font-weight: 600;
+    font-family: "Dancing Script", serif;
+}
+
+.answer{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.fight1{
+    margin-top: 50px;
+}
+
+.us{
+    width: 167px;
+    height: 73;
+    background-color: red;
+}
+
+
+#animation{
+    animation: animate 2s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+#secondAnimation {
+    animation: second 1s ease-in-out forwards;
+  }
+  
+  @keyframes second {
+    from {
+      scale: 0.8;
+      opacity: 0;
+    }
+    to {
+      scale: 1;
+      opacity: 1;
+    }
+  }
+
+@keyframes animate{
+    from{
+        opacity: 0.5;
+        scale: 0.5;
+    } to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+#third{
+    animation: third 0.7s linear forwards;
+}
+
+
+@keyframes third{
+    from{
+        margin-left: -250px;
+        opacity: 0;
+    } to{
+        margin-left: 0px;
+        opacity: 1;
+        
+    }
+}
+
+
+#four{
+    animation: four 0.7s linear forwards;
+}
+
+
+@keyframes four{
+    from{
+        margin-top: 100px;
+        opacity: 0;
+    } to{
+        margin-top: 0px;
+        opacity: 1;
+    }
+}
+
+.teach{
+    width: 100%;
+    margin-top: 200px;
+    padding-bottom: 250px;
+}
+
+
+.our{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+
+}
+
+.our h1{
+    font-size: 60px;
+    margin-top: 10px;
+    color: white;
+}
+
+.our p{
+    color: red;
+    font-family: "Dancing Script", serif;
+    font-size: 40px;
+}
+
+.designe{
+    height: 382px;
+    width: 280px;
+}
+
+.designe1{
+    height: 382px;
+    width: 330px;
+}
+
+.paragrap{
+    position: absolute;
+    text-align: center;
+    margin-top: 300px;
+
+}
+
+.pe1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.people{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.name{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.role{
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.pe2{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.paragrap{
+    position: absolute;
+    text-align: center;
+}
+
+.pe3{
+     display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.teach{
+    padding-top: 150px;
+    background-color: rgb(28, 21, 21);
+}
+
+#ourTeam{
+    animation: five 2s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+
+@keyframes five{
+    from{
+        scale: 0.5;
+        opacity: 0;
+    } to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.gym{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+
+.gym-image{
+    margin-left: 150px;
+}
+
+.p1{
+    color: red;
+    font-family: "Dancing Script", serif;
+    font-size: 35px;
+}
+
+.studio h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.studio-info{
+    font-size: 15px;
+    color: black;
+    margin-top: 20px;
+}
+
+#imageSlide{
+    animation: seven 2s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+@keyframes seven{
+    from{
+        opacity: 0;
+        margin-left: -100px;
+    } to{
+        opacity: 1;
+        margin-left: 0;
+    }
+}
+
+#infoSlide{
+    animation: eight 2s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+@keyframes eight{
+    from{
+        opacity: 0;
+        margin-left: 400px;
+    } to{
+        opacity: 1;
+        margin-left: 0;
+    }
+}
+
+#head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.navigation{
+    background-color: rgb(31, 26, 26);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+    height: 100px;
+}
+
+.navigation button{
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.navigation button::after{
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0;
+    position: absolute;
+    height: 2px;
+    background-color: white;
+    color: white;
+    transition: 0.5s;
+
+}
+
+.navigation button:hover::after{
+    width: 100%;
+}
+
+
+#price{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.train{
+    width: 400px;
+    height: 241px;
+}
+
+.up{
+    background-color: rgb(194, 15, 15);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    padding: 50px;
+}
+
+.up h1{
+    font-size: 40px;
+}
+
+.up p{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.down p{
+    font-size: 15px;
+}
+
+.down{
+    padding: 20px;
+    background-color: rgb(255, 254, 254);
+}
+
+.email{
+    margin-top: 500px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    text-align: center;
+    justify-content: center;
+}
+
+.text p{
+    color: red;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Dancing Script", serif;
+}
+
+.text h1{
+    font-size: 60px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.form input{
+    width: 435px;
+    height: 55px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: rgb(251, 210, 167);
+    border-radius: 6px;
+}
+
+#myForm button{
+    height: 57px;
+    width: 204px;
+    background-color:  rgb(194, 15, 15);
+    border: none;
+    color: white;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#myForm button:hover{
+    background-color: black;
+}
+
+
+#myForm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form{
+    margin-top: 50px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+    align-items: center;
+    margin-top: 150px;
+    width: 100%;
+    background-color:  rgb(31, 26, 26);
+    justify-content: center;
+    margin-top: 4500px;
+}
+
+
+.links{
+    margin-left: 200px;
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+}
+
+.links p{
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    line-height: 45px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.links p:hover{
+    color:  rgb(194, 15, 15);
+}
+
+.logo-name{
+    color: white;
+    width: 100%;
+    font-family: "Dancing Script", serif;
+    font-size: 50px;
+    margin-top: -10px;
+    margin-left: 250px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
