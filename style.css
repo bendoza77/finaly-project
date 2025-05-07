@@ -618,3 +618,7 @@ footer{
 html{
     scroll-behavior: smooth;
 }
+
+.links a{
+    text-decoration: none;
+}
